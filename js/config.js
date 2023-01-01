@@ -1,4 +1,4 @@
-axios.defaults.baseURL = 'http://localhost:3000/';
+axios.defaults.baseURL = 'https://json-server-projecttest.onrender.com/';
 const token =  `Bearer ${localStorage.getItem("token")}`;
 axios.defaults.headers.common['Authorization'] = token;
 
